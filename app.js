@@ -367,7 +367,6 @@ function setupImageLightbox() {
           <figcaption data-lightbox-caption></figcaption>
         </figure>
         <button class="image-lightbox-arrow next" type="button" data-lightbox-next aria-label="Следующее изображение">→</button>
-        <div class="image-lightbox-progress" aria-hidden="true"><span data-lightbox-progress></span></div>
       </div>
     `,
   );
@@ -379,7 +378,6 @@ function setupImageLightbox() {
   const close = $("[data-lightbox-close]", lightbox);
   const prev = $("[data-lightbox-prev]", lightbox);
   const next = $("[data-lightbox-next]", lightbox);
-  const progress = $("[data-lightbox-progress]", lightbox);
   let images = [];
   let index = 0;
   let swipeStartX = 0;
@@ -411,7 +409,6 @@ function setupImageLightbox() {
     caption.textContent = current.dataset.lightboxTitle || current.alt || "";
     prev.hidden = images.length < 2;
     next.hidden = images.length < 2;
-    if (progress) progress.style.width = `${((index + 1) / images.length) * 100}%`;
   };
 
   const open = (target) => {

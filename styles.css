@@ -998,7 +998,6 @@ h3 {
   justify-self: start;
 }
 
-.image-lightbox-progress,
 .slider-progress {
   overflow: hidden;
   height: 4px;
@@ -1006,7 +1005,6 @@ h3 {
   background: rgba(109, 124, 255, 0.18);
 }
 
-.image-lightbox-progress span,
 .slider-progress span {
   display: block;
   width: 0;
@@ -1014,13 +1012,6 @@ h3 {
   border-radius: inherit;
   background: var(--accent);
   transition: width 180ms ease;
-}
-
-.image-lightbox-progress {
-  position: absolute;
-  right: 28px;
-  bottom: 24px;
-  left: 28px;
 }
 
 .case-hero {
@@ -1623,10 +1614,13 @@ h3 {
   }
 
   .cookie-note {
-    right: 12px;
-    bottom: 12px;
-    left: 12px;
+    right: 8px;
+    bottom: 28px;
+    left: 8px;
     max-width: none;
+    justify-content: center;
+    padding: 14px 12px 14px 18px;
+    border-radius: 999px;
   }
 
   .brand small {
@@ -1879,9 +1873,4 @@ h3 {
     justify-self: auto;
   }
 
-  .image-lightbox-progress {
-    right: 12px;
-    bottom: 18px;
-    left: 12px;
-  }
 }
