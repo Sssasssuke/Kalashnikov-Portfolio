@@ -45,6 +45,21 @@ window.PORTFOLIO_DATA = {
       "pageCount": 6,
       "sections": [
         {
+          "slug": "running-ecosystem",
+          "title": "Беговая экосистема",
+          "images": [
+            {
+              "src": "assets/works/mts-pages/running-ecosystem-full.webp",
+              "previewSrc": "assets/works/mts-pages/running-ecosystem-preview.webp",
+              "width": 1440,
+              "height": 12964,
+              "previewWidth": 774,
+              "previewHeight": 600,
+              "alt": "Беговая экосистема"
+            }
+          ]
+        },
+        {
           "slug": "yandex-drops",
           "title": "Яндекс Дропс",
           "images": [
@@ -56,21 +71,6 @@ window.PORTFOLIO_DATA = {
               "previewWidth": 774,
               "previewHeight": 600,
               "alt": "Яндекс Дропс"
-            }
-          ]
-        },
-        {
-          "slug": "huawei",
-          "title": "Скидка на HUAWEI",
-          "images": [
-            {
-              "src": "assets/works/mts-pages/huawei-full.webp",
-              "previewSrc": "assets/works/mts-pages/huawei-preview.webp",
-              "width": 1472,
-              "height": 4063,
-              "previewWidth": 774,
-              "previewHeight": 600,
-              "alt": "Скидка на HUAWEI"
             }
           ]
         },
@@ -90,6 +90,21 @@ window.PORTFOLIO_DATA = {
           ]
         },
         {
+          "slug": "smartphone-buyback",
+          "title": "Выкуп смартфонов",
+          "images": [
+            {
+              "src": "assets/works/mts-pages/smartphone-buyback-full.webp",
+              "previewSrc": "assets/works/mts-pages/smartphone-buyback-preview.webp",
+              "width": 1440,
+              "height": 5097,
+              "previewWidth": 774,
+              "previewHeight": 600,
+              "alt": "Выкуп смартфонов"
+            }
+          ]
+        },
+        {
           "slug": "kion",
           "title": "Подписка KION",
           "images": [
@@ -105,32 +120,17 @@ window.PORTFOLIO_DATA = {
           ]
         },
         {
-          "slug": "running-ecosystem",
-          "title": "Беговая экосистема",
+          "slug": "huawei",
+          "title": "Скидка на HUAWEI",
           "images": [
             {
-              "src": "assets/works/mts-pages/running-ecosystem-full.webp",
-              "previewSrc": "assets/works/mts-pages/running-ecosystem-preview.webp",
-              "width": 1440,
-              "height": 7701,
+              "src": "assets/works/mts-pages/huawei-full.webp",
+              "previewSrc": "assets/works/mts-pages/huawei-preview.webp",
+              "width": 1472,
+              "height": 4063,
               "previewWidth": 774,
               "previewHeight": 600,
-              "alt": "Беговая экосистема"
-            }
-          ]
-        },
-        {
-          "slug": "smartphone-buyback",
-          "title": "Выкуп смартфонов",
-          "images": [
-            {
-              "src": "assets/works/mts-pages/smartphone-buyback-full.webp",
-              "previewSrc": "assets/works/mts-pages/smartphone-buyback-preview.webp",
-              "width": 1440,
-              "height": 5097,
-              "previewWidth": 774,
-              "previewHeight": 600,
-              "alt": "Выкуп смартфонов"
+              "alt": "Скидка на HUAWEI"
             }
           ]
         }
