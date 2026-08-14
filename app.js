@@ -694,7 +694,22 @@ function setupSliders() {
     let isDragging = false;
     let didDrag = false;
     let dragPointerId = null;
-    const step = () => Math.max(260, track.clientWidth * 0.82);
+    let snapTimer = null;
+    const slideWidth = () => Math.max(track.clientWidth, 1);
+    const activeIndex = () => Math.min(
+      Math.max(slides.length - 1, 0),
+      Math.max(0, Math.round(track.scrollLeft / slideWidth())),
+    );
+    const snapTo = (index, behavior = "smooth") => {
+      if (!slides.length) return;
+      const nextIndex = Math.min(slides.length - 1, Math.max(0, index));
+      track.scrollTo({ left: nextIndex * slideWidth(), behavior });
+    };
+    const scheduleSnap = () => {
+      window.clearTimeout(snapTimer);
+      if (isDragging || !slides.length) return;
+      snapTimer = window.setTimeout(() => snapTo(activeIndex()), 120);
+    };
     const update = () => {
       if (!progress || !slides.length) return;
       const maxScroll = Math.max(track.scrollWidth - track.clientWidth, 1);
@@ -703,10 +718,11 @@ function setupSliders() {
       progress.style.width = `${(current / slides.length) * 100}%`;
     };
 
-    prev?.addEventListener("click", () => track.scrollBy({ left: -step(), behavior: "smooth" }));
-    next?.addEventListener("click", () => track.scrollBy({ left: step(), behavior: "smooth" }));
+    prev?.addEventListener("click", () => snapTo(activeIndex() - 1));
+    next?.addEventListener("click", () => snapTo(activeIndex() + 1));
     track.addEventListener("pointerdown", (event) => {
       if (event.button > 0) return;
+      window.clearTimeout(snapTimer);
       isDragging = true;
       didDrag = false;
       dragStartX = event.clientX;
@@ -729,6 +745,7 @@ function setupSliders() {
       dragPointerId = null;
       track.classList.remove("is-dragging");
       track.releasePointerCapture?.(event.pointerId);
+      snapTo(activeIndex());
     };
     track.addEventListener("pointerup", stopDrag);
     track.addEventListener("pointercancel", stopDrag);
@@ -738,8 +755,14 @@ function setupSliders() {
       event.stopPropagation();
       didDrag = false;
     }, true);
-    track.addEventListener("scroll", update, { passive: true });
-    window.addEventListener("resize", update);
+    track.addEventListener("scroll", () => {
+      update();
+      scheduleSnap();
+    }, { passive: true });
+    window.addEventListener("resize", () => {
+      snapTo(activeIndex(), "auto");
+      update();
+    });
     slider.updateSliderProgress = update;
     update();
   });
