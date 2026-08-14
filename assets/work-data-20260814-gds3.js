@@ -1,9 +1,9 @@
 window.PORTFOLIO_DATA = {
   "telegram": "https://t.me/kal4shnikoff",
-  "profileImage": "assets/works/home/home-01-5cb20943e0.webp",
+  "profileImage": "/assets/works/home/home-01-5cb20943e0.webp",
   "cases": {
     "mts": {
-      "page": "mts.html",
+      "page": "/mts/",
       "title": "МТС: промостраницы, баннеры и аккуратная Tilda-сборка",
       "heroTitle": "Промостраницы МТС",
       "shortTitle": "МТС",
@@ -49,8 +49,8 @@ window.PORTFOLIO_DATA = {
           "title": "Беговая экосистема",
           "images": [
             {
-              "src": "assets/works/mts-pages/running-ecosystem-full.webp",
-              "previewSrc": "assets/works/mts-pages/running-ecosystem-preview.webp",
+              "src": "/assets/works/mts-pages/running-ecosystem-full.webp",
+              "previewSrc": "/assets/works/mts-pages/running-ecosystem-preview.webp",
               "width": 1440,
               "height": 12964,
               "previewWidth": 774,
@@ -64,8 +64,8 @@ window.PORTFOLIO_DATA = {
           "title": "Яндекс Дропс",
           "images": [
             {
-              "src": "assets/works/mts-pages/yandex-drops-full.webp",
-              "previewSrc": "assets/works/mts-pages/yandex-drops-preview.webp",
+              "src": "/assets/works/mts-pages/yandex-drops-full.webp",
+              "previewSrc": "/assets/works/mts-pages/yandex-drops-preview.webp",
               "width": 1440,
               "height": 8134,
               "previewWidth": 774,
@@ -79,8 +79,8 @@ window.PORTFOLIO_DATA = {
           "title": "Смарт комбо",
           "images": [
             {
-              "src": "assets/works/mts-pages/smart-combo-full.webp",
-              "previewSrc": "assets/works/mts-pages/smart-combo-preview.webp",
+              "src": "/assets/works/mts-pages/smart-combo-full.webp",
+              "previewSrc": "/assets/works/mts-pages/smart-combo-preview.webp",
               "width": 1440,
               "height": 4650,
               "previewWidth": 774,
@@ -94,8 +94,8 @@ window.PORTFOLIO_DATA = {
           "title": "Выкуп смартфонов",
           "images": [
             {
-              "src": "assets/works/mts-pages/smartphone-buyback-full.webp",
-              "previewSrc": "assets/works/mts-pages/smartphone-buyback-preview.webp",
+              "src": "/assets/works/mts-pages/smartphone-buyback-full.webp",
+              "previewSrc": "/assets/works/mts-pages/smartphone-buyback-preview.webp",
               "width": 1440,
               "height": 5097,
               "previewWidth": 774,
@@ -109,8 +109,8 @@ window.PORTFOLIO_DATA = {
           "title": "Подписка KION",
           "images": [
             {
-              "src": "assets/works/mts-pages/kion-full.webp",
-              "previewSrc": "assets/works/mts-pages/kion-preview.webp",
+              "src": "/assets/works/mts-pages/kion-full.webp",
+              "previewSrc": "/assets/works/mts-pages/kion-preview.webp",
               "width": 1472,
               "height": 3113,
               "previewWidth": 774,
@@ -124,8 +124,8 @@ window.PORTFOLIO_DATA = {
           "title": "Скидка на HUAWEI",
           "images": [
             {
-              "src": "assets/works/mts-pages/huawei-full.webp",
-              "previewSrc": "assets/works/mts-pages/huawei-preview.webp",
+              "src": "/assets/works/mts-pages/huawei-full.webp",
+              "previewSrc": "/assets/works/mts-pages/huawei-preview.webp",
               "width": 1472,
               "height": 4063,
               "previewWidth": 774,
@@ -135,10 +135,10 @@ window.PORTFOLIO_DATA = {
           ]
         }
       ],
-      "preview": "assets/covers/mts-cover.webp"
+      "preview": "/assets/covers/mts-cover.webp"
     },
     "fashion-fund": {
-      "page": "fashion-fund.html",
+      "page": "/fashion-fund/",
       "title": "Фонд Моды: визуальная система для событий международного уровня",
       "heroTitle": "Фонд моды",
       "shortTitle": "Фонд Моды",
@@ -184,37 +184,37 @@ window.PORTFOLIO_DATA = {
           "title": "BRICS",
           "images": [
             {
-              "src": "assets/works/fashion-tabs/brics/brics-01.webp",
+              "src": "/assets/works/fashion-tabs/brics/brics-01.webp",
               "width": null,
               "height": null,
               "alt": "BRICS"
             },
             {
-              "src": "assets/works/fashion-tabs/brics/brics-02.webp",
+              "src": "/assets/works/fashion-tabs/brics/brics-02.webp",
               "width": null,
               "height": null,
               "alt": "BRICS"
             },
             {
-              "src": "assets/works/fashion-tabs/brics/brics-03.webp",
+              "src": "/assets/works/fashion-tabs/brics/brics-03.webp",
               "width": null,
               "height": null,
               "alt": "BRICS"
             },
             {
-              "src": "assets/works/fashion-tabs/brics/brics-04.webp",
+              "src": "/assets/works/fashion-tabs/brics/brics-04.webp",
               "width": null,
               "height": null,
               "alt": "BRICS"
             },
             {
-              "src": "assets/works/fashion-tabs/brics/brics-05.webp",
+              "src": "/assets/works/fashion-tabs/brics/brics-05.webp",
               "width": null,
               "height": null,
               "alt": "BRICS"
             },
             {
-              "src": "assets/works/fashion-tabs/brics/brics-06.webp",
+              "src": "/assets/works/fashion-tabs/brics/brics-06.webp",
               "width": null,
               "height": null,
               "alt": "BRICS"
@@ -226,37 +226,37 @@ window.PORTFOLIO_DATA = {
           "title": "Московская Неделя Моды",
           "images": [
             {
-              "src": "assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-01.webp",
+              "src": "/assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-01.webp",
               "width": null,
               "height": null,
               "alt": "Московская Неделя Моды"
             },
             {
-              "src": "assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-02.webp",
+              "src": "/assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-02.webp",
               "width": null,
               "height": null,
               "alt": "Московская Неделя Моды"
             },
             {
-              "src": "assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-03.webp",
+              "src": "/assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-03.webp",
               "width": null,
               "height": null,
               "alt": "Московская Неделя Моды"
             },
             {
-              "src": "assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-04.webp",
+              "src": "/assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-04.webp",
               "width": null,
               "height": null,
               "alt": "Московская Неделя Моды"
             },
             {
-              "src": "assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-05.webp",
+              "src": "/assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-05.webp",
               "width": null,
               "height": null,
               "alt": "Московская Неделя Моды"
             },
             {
-              "src": "assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-06.webp",
+              "src": "/assets/works/fashion-tabs/moscow-fashion-week/moscow-fashion-week-06.webp",
               "width": null,
               "height": null,
               "alt": "Московская Неделя Моды"
@@ -264,10 +264,10 @@ window.PORTFOLIO_DATA = {
           ]
         }
       ],
-      "preview": "assets/covers/fashion-fund-cover.webp"
+      "preview": "/assets/covers/fashion-fund-cover.webp"
     },
     "gds-branding": {
-      "page": "gds-branding.html",
+      "page": "/gds-branding/",
       "title": "GDS: айдентика и визуальная система для маркетингового агентства",
       "heroTitle": "GDS",
       "shortTitle": "Айдентика и визуальная система",
@@ -315,7 +315,7 @@ window.PORTFOLIO_DATA = {
           "title": "Сайт GDS",
           "images": [
             {
-              "src": "assets/works/gds/gds-landing.webp",
+              "src": "/assets/works/gds/gds-landing.webp",
               "width": 1800,
               "height": 5937,
               "alt": "Лендинг GDS"
@@ -326,7 +326,7 @@ window.PORTFOLIO_DATA = {
           "title": "Построение логотипа",
           "images": [
             {
-              "src": "assets/works/gds/gds-logo-grid.webp",
+              "src": "/assets/works/gds/gds-logo-grid.webp",
               "width": 2216,
               "height": 1000,
               "alt": "Сетка и построение логотипа GDS"
@@ -337,49 +337,49 @@ window.PORTFOLIO_DATA = {
           "title": "Карусели",
           "images": [
             {
-              "src": "assets/works/gds/carousels/post-01/slide-01.webp",
+              "src": "/assets/works/gds/carousels/post-01/slide-01.webp",
               "width": 1080,
               "height": 1350,
               "alt": "Серия 01: кто такой GDS"
             },
             {
-              "src": "assets/works/gds/carousels/post-02/slide-01.webp",
+              "src": "/assets/works/gds/carousels/post-02/slide-01.webp",
               "width": 1080,
               "height": 1350,
               "alt": "Серия 02: сайт как точка входа"
             },
             {
-              "src": "assets/works/gds/carousels/post-03/slide-01.webp",
+              "src": "/assets/works/gds/carousels/post-03/slide-01.webp",
               "width": 1080,
               "height": 1350,
               "alt": "Серия 03: инфлюенсеры и влияние"
             },
             {
-              "src": "assets/works/gds/carousels/post-04/slide-01.webp",
+              "src": "/assets/works/gds/carousels/post-04/slide-01.webp",
               "width": 1080,
               "height": 1350,
               "alt": "Серия 04: сильный визуальный крючок"
             },
             {
-              "src": "assets/works/gds/carousels/post-05/slide-01.webp",
+              "src": "/assets/works/gds/carousels/post-05/slide-01.webp",
               "width": 1080,
               "height": 1350,
               "alt": "Серия 05: агентство без шаблона"
             },
             {
-              "src": "assets/works/gds/carousels/post-06/slide-01.webp",
+              "src": "/assets/works/gds/carousels/post-06/slide-01.webp",
               "width": 1080,
               "height": 1350,
               "alt": "Серия 06: креативы для кампаний"
             },
             {
-              "src": "assets/works/gds/carousels/post-07/slide-01.webp",
+              "src": "/assets/works/gds/carousels/post-07/slide-01.webp",
               "width": 1080,
               "height": 1350,
               "alt": "Серия 07: рост через систему"
             },
             {
-              "src": "assets/works/gds/carousels/post-08/slide-01.webp",
+              "src": "/assets/works/gds/carousels/post-08/slide-01.webp",
               "width": 1080,
               "height": 1350,
               "alt": "Серия 08: характер бренда"
@@ -390,139 +390,139 @@ window.PORTFOLIO_DATA = {
           "title": "Маска и персонаж",
           "images": [
             {
-              "src": "assets/works/gds/persona/persona-01.webp",
+              "src": "/assets/works/gds/persona/persona-01.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 01"
             },
             {
-              "src": "assets/works/gds/persona/persona-02.webp",
+              "src": "/assets/works/gds/persona/persona-02.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 02"
             },
             {
-              "src": "assets/works/gds/persona/persona-03.webp",
+              "src": "/assets/works/gds/persona/persona-03.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 03"
             },
             {
-              "src": "assets/works/gds/persona/persona-04.webp",
+              "src": "/assets/works/gds/persona/persona-04.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 04"
             },
             {
-              "src": "assets/works/gds/persona/persona-05.webp",
+              "src": "/assets/works/gds/persona/persona-05.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 05"
             },
             {
-              "src": "assets/works/gds/persona/persona-06.webp",
+              "src": "/assets/works/gds/persona/persona-06.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 06"
             },
             {
-              "src": "assets/works/gds/persona/persona-07.webp",
+              "src": "/assets/works/gds/persona/persona-07.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 07"
             },
             {
-              "src": "assets/works/gds/persona/persona-08.webp",
+              "src": "/assets/works/gds/persona/persona-08.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 08"
             },
             {
-              "src": "assets/works/gds/persona/persona-09.webp",
+              "src": "/assets/works/gds/persona/persona-09.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 09"
             },
             {
-              "src": "assets/works/gds/persona/persona-10.webp",
+              "src": "/assets/works/gds/persona/persona-10.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 10"
             },
             {
-              "src": "assets/works/gds/persona/persona-11.webp",
+              "src": "/assets/works/gds/persona/persona-11.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 11"
             },
             {
-              "src": "assets/works/gds/persona/persona-12.webp",
+              "src": "/assets/works/gds/persona/persona-12.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 12"
             },
             {
-              "src": "assets/works/gds/persona/persona-13.webp",
+              "src": "/assets/works/gds/persona/persona-13.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 13"
             },
             {
-              "src": "assets/works/gds/persona/persona-14.webp",
+              "src": "/assets/works/gds/persona/persona-14.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 14"
             },
             {
-              "src": "assets/works/gds/persona/persona-15.webp",
+              "src": "/assets/works/gds/persona/persona-15.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 15"
             },
             {
-              "src": "assets/works/gds/persona/persona-16.webp",
+              "src": "/assets/works/gds/persona/persona-16.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 16"
             },
             {
-              "src": "assets/works/gds/persona/persona-17.webp",
+              "src": "/assets/works/gds/persona/persona-17.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 17"
             },
             {
-              "src": "assets/works/gds/persona/persona-18.webp",
+              "src": "/assets/works/gds/persona/persona-18.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 18"
             },
             {
-              "src": "assets/works/gds/persona/persona-19.webp",
+              "src": "/assets/works/gds/persona/persona-19.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 19"
             },
             {
-              "src": "assets/works/gds/persona/persona-20.webp",
+              "src": "/assets/works/gds/persona/persona-20.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 20"
             },
             {
-              "src": "assets/works/gds/persona/persona-21.webp",
+              "src": "/assets/works/gds/persona/persona-21.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 21"
             },
             {
-              "src": "assets/works/gds/persona/persona-22.webp",
+              "src": "/assets/works/gds/persona/persona-22.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 22"
             },
             {
-              "src": "assets/works/gds/persona/persona-23.webp",
+              "src": "/assets/works/gds/persona/persona-23.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS: персонаж и маска, кадр 23"
@@ -535,7 +535,7 @@ window.PORTFOLIO_DATA = {
           "title": "Сайт как главный носитель характера",
           "text": "Лендинг построен как быстрый вход в мир бренда: темная сцена, крупный оффер, жесткий контраст и короткий путь к заявке. Важно было не перегрузить страницу эффектами, а сделать так, чтобы дерзость работала на доверие и продажу.",
           "image": {
-            "src": "assets/works/gds/gds-landing.webp",
+            "src": "/assets/works/gds/gds-landing.webp",
             "width": 1800,
             "height": 5937,
             "alt": "Макет лендинга GDS"
@@ -545,7 +545,7 @@ window.PORTFOLIO_DATA = {
           "title": "Логотип на собственной сетке",
           "text": "Знак собран не как декоративная аббревиатура, а как модульная конструкция: в нем есть движение вперед, рамка кадра и ощущение digital-системы. Такая логика помогает логотипу держаться и в маленькой аватарке, и на крупных носителях.",
           "image": {
-            "src": "assets/works/gds/gds-logo-grid.webp",
+            "src": "/assets/works/gds/gds-logo-grid.webp",
             "width": 2216,
             "height": 1000,
             "alt": "Построение логотипа GDS на сетке"
@@ -554,34 +554,34 @@ window.PORTFOLIO_DATA = {
         "posts": [
           {
             "title": "Серия 08: характер бренда",
-            "preview": "assets/works/gds/carousels/post-08/slide-01.webp",
+            "preview": "/assets/works/gds/carousels/post-08/slide-01.webp",
             "slides": [
               {
-                "src": "assets/works/gds/carousels/post-08/slide-01.webp",
+                "src": "/assets/works/gds/carousels/post-08/slide-01.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 08: характер бренда, слайд 1"
               },
               {
-                "src": "assets/works/gds/carousels/post-08/slide-02.webp",
+                "src": "/assets/works/gds/carousels/post-08/slide-02.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 08: характер бренда, слайд 2"
               },
               {
-                "src": "assets/works/gds/carousels/post-08/slide-03.webp",
+                "src": "/assets/works/gds/carousels/post-08/slide-03.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 08: характер бренда, слайд 3"
               },
               {
-                "src": "assets/works/gds/carousels/post-08/slide-04.webp",
+                "src": "/assets/works/gds/carousels/post-08/slide-04.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 08: характер бренда, слайд 4"
               },
               {
-                "src": "assets/works/gds/carousels/post-08/slide-05.webp",
+                "src": "/assets/works/gds/carousels/post-08/slide-05.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 08: характер бренда, слайд 5"
@@ -590,34 +590,34 @@ window.PORTFOLIO_DATA = {
           },
           {
             "title": "Серия 07: рост через систему",
-            "preview": "assets/works/gds/carousels/post-07/slide-01.webp",
+            "preview": "/assets/works/gds/carousels/post-07/slide-01.webp",
             "slides": [
               {
-                "src": "assets/works/gds/carousels/post-07/slide-01.webp",
+                "src": "/assets/works/gds/carousels/post-07/slide-01.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 07: рост через систему, слайд 1"
               },
               {
-                "src": "assets/works/gds/carousels/post-07/slide-02.webp",
+                "src": "/assets/works/gds/carousels/post-07/slide-02.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 07: рост через систему, слайд 2"
               },
               {
-                "src": "assets/works/gds/carousels/post-07/slide-03.webp",
+                "src": "/assets/works/gds/carousels/post-07/slide-03.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 07: рост через систему, слайд 3"
               },
               {
-                "src": "assets/works/gds/carousels/post-07/slide-04.webp",
+                "src": "/assets/works/gds/carousels/post-07/slide-04.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 07: рост через систему, слайд 4"
               },
               {
-                "src": "assets/works/gds/carousels/post-07/slide-05.webp",
+                "src": "/assets/works/gds/carousels/post-07/slide-05.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 07: рост через систему, слайд 5"
@@ -626,34 +626,34 @@ window.PORTFOLIO_DATA = {
           },
           {
             "title": "Серия 06: креативы для кампаний",
-            "preview": "assets/works/gds/carousels/post-06/slide-01.webp",
+            "preview": "/assets/works/gds/carousels/post-06/slide-01.webp",
             "slides": [
               {
-                "src": "assets/works/gds/carousels/post-06/slide-01.webp",
+                "src": "/assets/works/gds/carousels/post-06/slide-01.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 06: креативы для кампаний, слайд 1"
               },
               {
-                "src": "assets/works/gds/carousels/post-06/slide-02.webp",
+                "src": "/assets/works/gds/carousels/post-06/slide-02.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 06: креативы для кампаний, слайд 2"
               },
               {
-                "src": "assets/works/gds/carousels/post-06/slide-03.webp",
+                "src": "/assets/works/gds/carousels/post-06/slide-03.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 06: креативы для кампаний, слайд 3"
               },
               {
-                "src": "assets/works/gds/carousels/post-06/slide-04.webp",
+                "src": "/assets/works/gds/carousels/post-06/slide-04.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 06: креативы для кампаний, слайд 4"
               },
               {
-                "src": "assets/works/gds/carousels/post-06/slide-05.webp",
+                "src": "/assets/works/gds/carousels/post-06/slide-05.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 06: креативы для кампаний, слайд 5"
@@ -662,28 +662,28 @@ window.PORTFOLIO_DATA = {
           },
           {
             "title": "Серия 05: агентство без шаблона",
-            "preview": "assets/works/gds/carousels/post-05/slide-01.webp",
+            "preview": "/assets/works/gds/carousels/post-05/slide-01.webp",
             "slides": [
               {
-                "src": "assets/works/gds/carousels/post-05/slide-01.webp",
+                "src": "/assets/works/gds/carousels/post-05/slide-01.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 05: агентство без шаблона, слайд 1"
               },
               {
-                "src": "assets/works/gds/carousels/post-05/slide-02.webp",
+                "src": "/assets/works/gds/carousels/post-05/slide-02.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 05: агентство без шаблона, слайд 2"
               },
               {
-                "src": "assets/works/gds/carousels/post-05/slide-03.webp",
+                "src": "/assets/works/gds/carousels/post-05/slide-03.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 05: агентство без шаблона, слайд 3"
               },
               {
-                "src": "assets/works/gds/carousels/post-05/slide-04.webp",
+                "src": "/assets/works/gds/carousels/post-05/slide-04.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 05: агентство без шаблона, слайд 4"
@@ -692,34 +692,34 @@ window.PORTFOLIO_DATA = {
           },
           {
             "title": "Серия 04: сильный визуальный крючок",
-            "preview": "assets/works/gds/carousels/post-04/slide-01.webp",
+            "preview": "/assets/works/gds/carousels/post-04/slide-01.webp",
             "slides": [
               {
-                "src": "assets/works/gds/carousels/post-04/slide-01.webp",
+                "src": "/assets/works/gds/carousels/post-04/slide-01.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 04: сильный визуальный крючок, слайд 1"
               },
               {
-                "src": "assets/works/gds/carousels/post-04/slide-02.webp",
+                "src": "/assets/works/gds/carousels/post-04/slide-02.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 04: сильный визуальный крючок, слайд 2"
               },
               {
-                "src": "assets/works/gds/carousels/post-04/slide-03.webp",
+                "src": "/assets/works/gds/carousels/post-04/slide-03.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 04: сильный визуальный крючок, слайд 3"
               },
               {
-                "src": "assets/works/gds/carousels/post-04/slide-04.webp",
+                "src": "/assets/works/gds/carousels/post-04/slide-04.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 04: сильный визуальный крючок, слайд 4"
               },
               {
-                "src": "assets/works/gds/carousels/post-04/slide-05.webp",
+                "src": "/assets/works/gds/carousels/post-04/slide-05.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 04: сильный визуальный крючок, слайд 5"
@@ -728,34 +728,34 @@ window.PORTFOLIO_DATA = {
           },
           {
             "title": "Серия 03: инфлюенсеры и влияние",
-            "preview": "assets/works/gds/carousels/post-03/slide-01.webp",
+            "preview": "/assets/works/gds/carousels/post-03/slide-01.webp",
             "slides": [
               {
-                "src": "assets/works/gds/carousels/post-03/slide-01.webp",
+                "src": "/assets/works/gds/carousels/post-03/slide-01.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 03: инфлюенсеры и влияние, слайд 1"
               },
               {
-                "src": "assets/works/gds/carousels/post-03/slide-02.webp",
+                "src": "/assets/works/gds/carousels/post-03/slide-02.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 03: инфлюенсеры и влияние, слайд 2"
               },
               {
-                "src": "assets/works/gds/carousels/post-03/slide-03.webp",
+                "src": "/assets/works/gds/carousels/post-03/slide-03.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 03: инфлюенсеры и влияние, слайд 3"
               },
               {
-                "src": "assets/works/gds/carousels/post-03/slide-04.webp",
+                "src": "/assets/works/gds/carousels/post-03/slide-04.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 03: инфлюенсеры и влияние, слайд 4"
               },
               {
-                "src": "assets/works/gds/carousels/post-03/slide-05.webp",
+                "src": "/assets/works/gds/carousels/post-03/slide-05.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 03: инфлюенсеры и влияние, слайд 5"
@@ -764,34 +764,34 @@ window.PORTFOLIO_DATA = {
           },
           {
             "title": "Серия 02: сайт как точка входа",
-            "preview": "assets/works/gds/carousels/post-02/slide-01.webp",
+            "preview": "/assets/works/gds/carousels/post-02/slide-01.webp",
             "slides": [
               {
-                "src": "assets/works/gds/carousels/post-02/slide-01.webp",
+                "src": "/assets/works/gds/carousels/post-02/slide-01.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 02: сайт как точка входа, слайд 1"
               },
               {
-                "src": "assets/works/gds/carousels/post-02/slide-02.webp",
+                "src": "/assets/works/gds/carousels/post-02/slide-02.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 02: сайт как точка входа, слайд 2"
               },
               {
-                "src": "assets/works/gds/carousels/post-02/slide-03.webp",
+                "src": "/assets/works/gds/carousels/post-02/slide-03.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 02: сайт как точка входа, слайд 3"
               },
               {
-                "src": "assets/works/gds/carousels/post-02/slide-04.webp",
+                "src": "/assets/works/gds/carousels/post-02/slide-04.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 02: сайт как точка входа, слайд 4"
               },
               {
-                "src": "assets/works/gds/carousels/post-02/slide-05.webp",
+                "src": "/assets/works/gds/carousels/post-02/slide-05.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 02: сайт как точка входа, слайд 5"
@@ -800,34 +800,34 @@ window.PORTFOLIO_DATA = {
           },
           {
             "title": "Серия 01: кто такой GDS",
-            "preview": "assets/works/gds/carousels/post-01/slide-01.webp",
+            "preview": "/assets/works/gds/carousels/post-01/slide-01.webp",
             "slides": [
               {
-                "src": "assets/works/gds/carousels/post-01/slide-01.webp",
+                "src": "/assets/works/gds/carousels/post-01/slide-01.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 01: кто такой GDS, слайд 1"
               },
               {
-                "src": "assets/works/gds/carousels/post-01/slide-02.webp",
+                "src": "/assets/works/gds/carousels/post-01/slide-02.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 01: кто такой GDS, слайд 2"
               },
               {
-                "src": "assets/works/gds/carousels/post-01/slide-03.webp",
+                "src": "/assets/works/gds/carousels/post-01/slide-03.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 01: кто такой GDS, слайд 3"
               },
               {
-                "src": "assets/works/gds/carousels/post-01/slide-04.webp",
+                "src": "/assets/works/gds/carousels/post-01/slide-04.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 01: кто такой GDS, слайд 4"
               },
               {
-                "src": "assets/works/gds/carousels/post-01/slide-05.webp",
+                "src": "/assets/works/gds/carousels/post-01/slide-05.webp",
                 "width": 1080,
                 "height": 1350,
                 "alt": "Серия 01: кто такой GDS, слайд 5"
@@ -840,139 +840,139 @@ window.PORTFOLIO_DATA = {
           "text": "Для динамических форматов я описал персонажа как часть айдентики: визуальный образ, пластика, манера речи, одежда и типовые кадры. Так бренд получает не просто набор постов, а узнаваемого носителя голоса.",
           "images": [
             {
-              "src": "assets/works/gds/persona/persona-01.webp",
+              "src": "/assets/works/gds/persona/persona-01.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 01"
             },
             {
-              "src": "assets/works/gds/persona/persona-02.webp",
+              "src": "/assets/works/gds/persona/persona-02.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 02"
             },
             {
-              "src": "assets/works/gds/persona/persona-03.webp",
+              "src": "/assets/works/gds/persona/persona-03.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 03"
             },
             {
-              "src": "assets/works/gds/persona/persona-04.webp",
+              "src": "/assets/works/gds/persona/persona-04.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 04"
             },
             {
-              "src": "assets/works/gds/persona/persona-05.webp",
+              "src": "/assets/works/gds/persona/persona-05.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 05"
             },
             {
-              "src": "assets/works/gds/persona/persona-06.webp",
+              "src": "/assets/works/gds/persona/persona-06.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 06"
             },
             {
-              "src": "assets/works/gds/persona/persona-07.webp",
+              "src": "/assets/works/gds/persona/persona-07.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 07"
             },
             {
-              "src": "assets/works/gds/persona/persona-08.webp",
+              "src": "/assets/works/gds/persona/persona-08.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 08"
             },
             {
-              "src": "assets/works/gds/persona/persona-09.webp",
+              "src": "/assets/works/gds/persona/persona-09.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 09"
             },
             {
-              "src": "assets/works/gds/persona/persona-10.webp",
+              "src": "/assets/works/gds/persona/persona-10.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 10"
             },
             {
-              "src": "assets/works/gds/persona/persona-11.webp",
+              "src": "/assets/works/gds/persona/persona-11.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 11"
             },
             {
-              "src": "assets/works/gds/persona/persona-12.webp",
+              "src": "/assets/works/gds/persona/persona-12.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 12"
             },
             {
-              "src": "assets/works/gds/persona/persona-13.webp",
+              "src": "/assets/works/gds/persona/persona-13.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 13"
             },
             {
-              "src": "assets/works/gds/persona/persona-14.webp",
+              "src": "/assets/works/gds/persona/persona-14.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 14"
             },
             {
-              "src": "assets/works/gds/persona/persona-15.webp",
+              "src": "/assets/works/gds/persona/persona-15.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 15"
             },
             {
-              "src": "assets/works/gds/persona/persona-16.webp",
+              "src": "/assets/works/gds/persona/persona-16.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 16"
             },
             {
-              "src": "assets/works/gds/persona/persona-17.webp",
+              "src": "/assets/works/gds/persona/persona-17.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 17"
             },
             {
-              "src": "assets/works/gds/persona/persona-18.webp",
+              "src": "/assets/works/gds/persona/persona-18.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 18"
             },
             {
-              "src": "assets/works/gds/persona/persona-19.webp",
+              "src": "/assets/works/gds/persona/persona-19.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 19"
             },
             {
-              "src": "assets/works/gds/persona/persona-20.webp",
+              "src": "/assets/works/gds/persona/persona-20.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 20"
             },
             {
-              "src": "assets/works/gds/persona/persona-21.webp",
+              "src": "/assets/works/gds/persona/persona-21.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 21"
             },
             {
-              "src": "assets/works/gds/persona/persona-22.webp",
+              "src": "/assets/works/gds/persona/persona-22.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 22"
             },
             {
-              "src": "assets/works/gds/persona/persona-23.webp",
+              "src": "/assets/works/gds/persona/persona-23.webp",
               "width": 1920,
               "height": 1080,
               "alt": "GDS persona slide 23"
@@ -980,11 +980,11 @@ window.PORTFOLIO_DATA = {
           ]
         }
       },
-      "preview": "assets/covers/gds-branding-cover-20260814-2.webp",
-      "heroPreview": "assets/covers/gds-branding-cover-20260814-2.webp"
+      "preview": "/assets/covers/gds-branding-cover-20260814-2.webp",
+      "heroPreview": "/assets/covers/gds-branding-cover-20260814-2.webp"
     },
     "ai-concepts": {
-      "page": "ai-concepts.html",
+      "page": "/ai-concepts/",
       "title": "AI-концепты: визуальные серии для SMM и бренд-коммуникаций",
       "heroTitle": "AI-концепты",
       "shortTitle": "AI Концепты",
@@ -1030,7 +1030,7 @@ window.PORTFOLIO_DATA = {
           "title": "GDS",
           "images": [
             {
-              "src": "assets/works/ai-concepts/gds-01-11dadb3219.webp",
+              "src": "/assets/works/ai-concepts/gds-01-11dadb3219.webp",
               "width": 1774,
               "height": 2360,
               "alt": "GDS"
@@ -1042,7 +1042,7 @@ window.PORTFOLIO_DATA = {
           "title": "SKR Merch",
           "images": [
             {
-              "src": "assets/works/ai-concepts/skr-05-709ef25e4c.webp",
+              "src": "/assets/works/ai-concepts/skr-05-709ef25e4c.webp",
               "width": 1420,
               "height": 1873,
               "alt": "SKR Merch"
@@ -1054,7 +1054,7 @@ window.PORTFOLIO_DATA = {
           "title": "KINO concept",
           "images": [
             {
-              "src": "assets/works/ai-concepts/start-09-70b34a85de.webp",
+              "src": "/assets/works/ai-concepts/start-09-70b34a85de.webp",
               "width": 1921,
               "height": 2535,
               "alt": "KINO concept"
@@ -1062,7 +1062,7 @@ window.PORTFOLIO_DATA = {
           ]
         }
       ],
-      "preview": "assets/covers/ai-concepts-cover.webp"
+      "preview": "/assets/covers/ai-concepts-cover.webp"
     }
   }
 };

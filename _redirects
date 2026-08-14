@@ -1,0 +1,15 @@
+/index.html  /  301!
+/mts.html  /mts/  301!
+/fashion-fund.html  /fashion-fund/  301!
+/ai-concepts.html  /ai-concepts/  301!
+/gds-branding.html  /gds-branding/  301!
+
+/mts  /mts/  301!
+/fashion-fund  /fashion-fund/  301!
+/ai-concepts  /ai-concepts/  301!
+/gds-branding  /gds-branding/  301!
+
+/mts/  /mts.html  200
+/fashion-fund/  /fashion-fund.html  200
+/ai-concepts/  /ai-concepts.html  200
+/gds-branding/  /gds-branding.html  200

@@ -810,7 +810,7 @@ function renderCasePage() {
     <section class="case-hero dark-section" id="overview">
       <div class="container case-hero-grid">
         <div class="case-hero-copy">
-          <a class="back-link" href="index.html#cases">← Все кейсы</a>
+          <a class="back-link" href="/#cases">← Все кейсы</a>
           <p class="kicker">${caseData.kicker}</p>
           <h1>${caseData.heroTitle || caseData.title}</h1>
           <p>${caseData.heroSummary || caseData.summary}</p>
