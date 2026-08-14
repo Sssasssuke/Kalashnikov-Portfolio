@@ -3,7 +3,7 @@ window.PORTFOLIO_DATA = {
   "profileImage": "/assets/works/home/home-01-5cb20943e0.webp",
   "cases": {
     "mts": {
-      "page": "/mts/",
+      "page": "/mts",
       "title": "МТС: промостраницы, баннеры и аккуратная Tilda-сборка",
       "heroTitle": "Промостраницы МТС",
       "shortTitle": "МТС",
@@ -138,7 +138,7 @@ window.PORTFOLIO_DATA = {
       "preview": "/assets/covers/mts-cover.webp"
     },
     "fashion-fund": {
-      "page": "/fashion-fund/",
+      "page": "/fashion-fund",
       "title": "Фонд Моды: визуальная система для событий международного уровня",
       "heroTitle": "Фонд моды",
       "shortTitle": "Фонд Моды",
@@ -267,7 +267,7 @@ window.PORTFOLIO_DATA = {
       "preview": "/assets/covers/fashion-fund-cover.webp"
     },
     "gds-branding": {
-      "page": "/gds-branding/",
+      "page": "/gds-branding",
       "title": "GDS: айдентика и визуальная система для маркетингового агентства",
       "heroTitle": "GDS",
       "shortTitle": "Айдентика и визуальная система",
@@ -984,7 +984,7 @@ window.PORTFOLIO_DATA = {
       "heroPreview": "/assets/covers/gds-branding-cover-20260814-2.webp"
     },
     "ai-concepts": {
-      "page": "/ai-concepts/",
+      "page": "/ai-concepts",
       "title": "AI-концепты: визуальные серии для SMM и бренд-коммуникаций",
       "heroTitle": "AI-концепты",
       "shortTitle": "AI Концепты",
