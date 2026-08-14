@@ -266,6 +266,723 @@ window.PORTFOLIO_DATA = {
       ],
       "preview": "assets/covers/fashion-fund-cover.webp"
     },
+    "gds-branding": {
+      "page": "gds-branding.html",
+      "title": "GDS: айдентика и визуальная система для маркетингового агентства",
+      "heroTitle": "GDS",
+      "shortTitle": "Айдентика и визуальная система",
+      "kicker": "Брендинг, сайт, контент-система, персонаж",
+      "accent": "#6d7cff",
+      "summary": "Упаковал маркетинговое агентство в дерзкий визуальный язык: сайт, логотип, контент и персонаж работают как единый бренд-образ.",
+      "heroSummary": "GDS нужно было выглядеть не как очередное performance-агентство, а как команда с характером: смело, концептуально, чуть вызывающе и достаточно убедительно для западного рынка.",
+      "role": [
+        "Сформировал визуальную систему бренда: контраст, шум, крупная типографика, маска, резкие кадры и ощущение медийного давления.",
+        "Разработал сайт как главный носитель айдентики: от первого экрана до формы заявки, с понятной структурой и сильным визуальным входом.",
+        "Перенес стиль в карусели для запрещенной в РФ соцсети: каждый пост сохраняет собственный крючок, но читается частью одной системы.",
+        "Упаковал персонажа для коротких видео: маска, позы, одежда, манера речи и кадры стали отдельным инструментом коммуникации бренда."
+      ],
+      "process": [
+        "Разобрал нишу: большинство агентств выглядит одинаково — много обещаний роста, мало собственного характера и запоминаемости.",
+        "Собрал направление вокруг идеи controlled chaos: бренд говорит уверенно, резко и визуально давит сильнее конкурентов.",
+        "Построил логотип на собственной сетке: знак работает как стрелка, рамка и движение вперед, а не просто как набор букв.",
+        "Разложил стиль на сайт: крупные офферы, темная подача, контрастные блоки и понятный путь к заявке.",
+        "Масштабировал язык на карусели: посты выглядят как серия, но каждый держит самостоятельную мысль и визуальный крючок.",
+        "Описал персонажа для видео: внешний вид, пластика, речь и сценарные состояния помогают бренду быть узнаваемым в динамике."
+      ],
+      "results": [
+        {
+          "label": "Образ",
+          "value": "создал узнаваемый характер бренда, который отличается от типичных агентств в нише"
+        },
+        {
+          "label": "Система",
+          "value": "связал сайт, логотип, карусели и персонажа в одну визуальную логику"
+        },
+        {
+          "label": "Коммуникация",
+          "value": "сделал подачу дерзкой, но не хаотичной: стиль продает экспертизу через уверенность"
+        },
+        {
+          "label": "Масштабирование",
+          "value": "заложил язык, который можно продолжать в лендингах, постах, видео и презентациях"
+        }
+      ],
+      "pageCount": 8,
+      "worksTitle": "Визуальная система, которая держит сайт, контент и персонажа",
+      "worksDescription": "Сначала показываю сайт и логику айдентики, затем карусели в формате запрещенной в РФ соцсети и отдельный блок по маске/персонажу.",
+      "sections": [
+        {
+          "title": "Сайт GDS",
+          "images": [
+            {
+              "src": "assets/works/gds/gds-landing.webp",
+              "width": 1800,
+              "height": 5937,
+              "alt": "Лендинг GDS"
+            }
+          ]
+        },
+        {
+          "title": "Построение логотипа",
+          "images": [
+            {
+              "src": "assets/works/gds/gds-logo-grid.webp",
+              "width": 2216,
+              "height": 1000,
+              "alt": "Сетка и построение логотипа GDS"
+            }
+          ]
+        },
+        {
+          "title": "Карусели",
+          "images": [
+            {
+              "src": "assets/works/gds/carousels/post-01/slide-01.webp",
+              "width": 1080,
+              "height": 1350,
+              "alt": "Серия 01: кто такой GDS"
+            },
+            {
+              "src": "assets/works/gds/carousels/post-02/slide-01.webp",
+              "width": 1080,
+              "height": 1350,
+              "alt": "Серия 02: сайт как точка входа"
+            },
+            {
+              "src": "assets/works/gds/carousels/post-03/slide-01.webp",
+              "width": 1080,
+              "height": 1350,
+              "alt": "Серия 03: инфлюенсеры и влияние"
+            },
+            {
+              "src": "assets/works/gds/carousels/post-04/slide-01.webp",
+              "width": 1080,
+              "height": 1350,
+              "alt": "Серия 04: сильный визуальный крючок"
+            },
+            {
+              "src": "assets/works/gds/carousels/post-05/slide-01.webp",
+              "width": 1080,
+              "height": 1350,
+              "alt": "Серия 05: агентство без шаблона"
+            },
+            {
+              "src": "assets/works/gds/carousels/post-06/slide-01.webp",
+              "width": 1080,
+              "height": 1350,
+              "alt": "Серия 06: креативы для кампаний"
+            },
+            {
+              "src": "assets/works/gds/carousels/post-07/slide-01.webp",
+              "width": 1080,
+              "height": 1350,
+              "alt": "Серия 07: рост через систему"
+            },
+            {
+              "src": "assets/works/gds/carousels/post-08/slide-01.webp",
+              "width": 1080,
+              "height": 1350,
+              "alt": "Серия 08: характер бренда"
+            }
+          ]
+        },
+        {
+          "title": "Маска и персонаж",
+          "images": [
+            {
+              "src": "assets/works/gds/persona/persona-01.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 01"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-02.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 02"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-03.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 03"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-04.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 04"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-05.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 05"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-06.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 06"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-07.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 07"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-08.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 08"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-09.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 09"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-10.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 10"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-11.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 11"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-12.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 12"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-13.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 13"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-14.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 14"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-15.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 15"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-16.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 16"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-17.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 17"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-18.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 18"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-19.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 19"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-20.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 20"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-21.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 21"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-22.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 22"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-23.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: персонаж и маска, кадр 23"
+            }
+          ]
+        }
+      ],
+      "gds": {
+        "landing": {
+          "title": "Сайт как главный носитель характера",
+          "text": "Лендинг построен как быстрый вход в мир бренда: темная сцена, крупный оффер, жесткий контраст и короткий путь к заявке. Важно было не перегрузить страницу эффектами, а сделать так, чтобы дерзость работала на доверие и продажу.",
+          "image": {
+            "src": "assets/works/gds/gds-landing.webp",
+            "width": 1800,
+            "height": 5937,
+            "alt": "Макет лендинга GDS"
+          }
+        },
+        "logo": {
+          "title": "Логотип на собственной сетке",
+          "text": "Знак собран не как декоративная аббревиатура, а как модульная конструкция: в нем есть движение вперед, рамка кадра и ощущение digital-системы. Такая логика помогает логотипу держаться и в маленькой аватарке, и на крупных носителях.",
+          "image": {
+            "src": "assets/works/gds/gds-logo-grid.webp",
+            "width": 2216,
+            "height": 1000,
+            "alt": "Построение логотипа GDS на сетке"
+          }
+        },
+        "posts": [
+          {
+            "title": "Серия 08: характер бренда",
+            "preview": "assets/works/gds/carousels/post-08/slide-01.webp",
+            "slides": [
+              {
+                "src": "assets/works/gds/carousels/post-08/slide-01.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 08: характер бренда, слайд 1"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-08/slide-02.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 08: характер бренда, слайд 2"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-08/slide-03.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 08: характер бренда, слайд 3"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-08/slide-04.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 08: характер бренда, слайд 4"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-08/slide-05.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 08: характер бренда, слайд 5"
+              }
+            ]
+          },
+          {
+            "title": "Серия 07: рост через систему",
+            "preview": "assets/works/gds/carousels/post-07/slide-01.webp",
+            "slides": [
+              {
+                "src": "assets/works/gds/carousels/post-07/slide-01.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 07: рост через систему, слайд 1"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-07/slide-02.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 07: рост через систему, слайд 2"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-07/slide-03.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 07: рост через систему, слайд 3"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-07/slide-04.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 07: рост через систему, слайд 4"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-07/slide-05.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 07: рост через систему, слайд 5"
+              }
+            ]
+          },
+          {
+            "title": "Серия 06: креативы для кампаний",
+            "preview": "assets/works/gds/carousels/post-06/slide-01.webp",
+            "slides": [
+              {
+                "src": "assets/works/gds/carousels/post-06/slide-01.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 06: креативы для кампаний, слайд 1"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-06/slide-02.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 06: креативы для кампаний, слайд 2"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-06/slide-03.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 06: креативы для кампаний, слайд 3"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-06/slide-04.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 06: креативы для кампаний, слайд 4"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-06/slide-05.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 06: креативы для кампаний, слайд 5"
+              }
+            ]
+          },
+          {
+            "title": "Серия 05: агентство без шаблона",
+            "preview": "assets/works/gds/carousels/post-05/slide-01.webp",
+            "slides": [
+              {
+                "src": "assets/works/gds/carousels/post-05/slide-01.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 05: агентство без шаблона, слайд 1"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-05/slide-02.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 05: агентство без шаблона, слайд 2"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-05/slide-03.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 05: агентство без шаблона, слайд 3"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-05/slide-04.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 05: агентство без шаблона, слайд 4"
+              }
+            ]
+          },
+          {
+            "title": "Серия 04: сильный визуальный крючок",
+            "preview": "assets/works/gds/carousels/post-04/slide-01.webp",
+            "slides": [
+              {
+                "src": "assets/works/gds/carousels/post-04/slide-01.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 04: сильный визуальный крючок, слайд 1"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-04/slide-02.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 04: сильный визуальный крючок, слайд 2"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-04/slide-03.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 04: сильный визуальный крючок, слайд 3"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-04/slide-04.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 04: сильный визуальный крючок, слайд 4"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-04/slide-05.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 04: сильный визуальный крючок, слайд 5"
+              }
+            ]
+          },
+          {
+            "title": "Серия 03: инфлюенсеры и влияние",
+            "preview": "assets/works/gds/carousels/post-03/slide-01.webp",
+            "slides": [
+              {
+                "src": "assets/works/gds/carousels/post-03/slide-01.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 03: инфлюенсеры и влияние, слайд 1"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-03/slide-02.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 03: инфлюенсеры и влияние, слайд 2"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-03/slide-03.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 03: инфлюенсеры и влияние, слайд 3"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-03/slide-04.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 03: инфлюенсеры и влияние, слайд 4"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-03/slide-05.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 03: инфлюенсеры и влияние, слайд 5"
+              }
+            ]
+          },
+          {
+            "title": "Серия 02: сайт как точка входа",
+            "preview": "assets/works/gds/carousels/post-02/slide-01.webp",
+            "slides": [
+              {
+                "src": "assets/works/gds/carousels/post-02/slide-01.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 02: сайт как точка входа, слайд 1"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-02/slide-02.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 02: сайт как точка входа, слайд 2"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-02/slide-03.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 02: сайт как точка входа, слайд 3"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-02/slide-04.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 02: сайт как точка входа, слайд 4"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-02/slide-05.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 02: сайт как точка входа, слайд 5"
+              }
+            ]
+          },
+          {
+            "title": "Серия 01: кто такой GDS",
+            "preview": "assets/works/gds/carousels/post-01/slide-01.webp",
+            "slides": [
+              {
+                "src": "assets/works/gds/carousels/post-01/slide-01.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 01: кто такой GDS, слайд 1"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-01/slide-02.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 01: кто такой GDS, слайд 2"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-01/slide-03.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 01: кто такой GDS, слайд 3"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-01/slide-04.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 01: кто такой GDS, слайд 4"
+              },
+              {
+                "src": "assets/works/gds/carousels/post-01/slide-05.webp",
+                "width": 1080,
+                "height": 1350,
+                "alt": "Серия 01: кто такой GDS, слайд 5"
+              }
+            ]
+          }
+        ],
+        "persona": {
+          "title": "Персонаж и маска для коротких видео",
+          "text": "Для динамических форматов я описал персонажа как часть айдентики: визуальный образ, пластика, манера речи, одежда и типовые кадры. Так бренд получает не просто набор постов, а узнаваемого носителя голоса.",
+          "images": [
+            {
+              "src": "assets/works/gds/persona/persona-01.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 01"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-02.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 02"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-03.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 03"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-04.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 04"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-05.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 05"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-06.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 06"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-07.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 07"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-08.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 08"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-09.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 09"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-10.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 10"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-11.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 11"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-12.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 12"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-13.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 13"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-14.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 14"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-15.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 15"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-16.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 16"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-17.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 17"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-18.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 18"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-19.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 19"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-20.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 20"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-21.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 21"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-22.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 22"
+            },
+            {
+              "src": "assets/works/gds/persona/persona-23.webp",
+              "width": 1920,
+              "height": 1080,
+              "alt": "GDS: ???????? ? ?????, ????? 23"
+            }
+          ]
+        }
+      },
+      "preview": "assets/covers/gds-branding-cover-20260814-2.webp",
+      "heroPreview": "assets/covers/gds-branding-cover-20260814-2.webp"
+    },
     "ai-concepts": {
       "page": "ai-concepts.html",
       "title": "AI-концепты: визуальные серии для SMM и бренд-коммуникаций",
@@ -346,423 +1063,6 @@ window.PORTFOLIO_DATA = {
         }
       ],
       "preview": "assets/covers/ai-concepts-cover.webp"
-    },
-    "presentations": {
-      "page": "presentations.html",
-      "title": "Презентации: структура, сторителлинг и визуальная аргументация",
-      "heroTitle": "Презентации",
-      "shortTitle": "Презентации",
-      "kicker": "Pitch decks, продуктовые материалы, инфографика",
-      "accent": "#18c7a7",
-      "summary": "Презентации я собираю как управляемый маршрут для зрителя: формулирую логику, выстраиваю порядок аргументов, превращаю данные в понятные визуальные блоки и довожу материал до вида, который можно отправлять, показывать или защищать.",
-      "heroSummary": "Структура, визуальная логика и аккуратная подача для презентаций и pitch decks.",
-      "role": [
-        "Структура и логика подачи информации",
-        "Дизайн слайдов, инфографики и визуальных блоков",
-        "Подготовка материалов к демонстрации, рассылке или публикации"
-      ],
-      "process": [
-        "Выделяю главный тезис и последовательность аргументов",
-        "Упрощаю сложные данные до понятных визуальных блоков",
-        "Собираю стиль, сетку и навигацию внутри материала",
-        "Довожу страницы до чистой, аккуратной и читаемой подачи",
-        "Развожу смысловые акценты так, чтобы каждый слайд работал на следующий",
-        "Готовлю визуальный материал к отправке, защите или демонстрации команде"
-      ],
-      "results": [
-        {
-          "label": "Структура",
-          "value": "собираю презентацию как понятный маршрут от проблемы к решению"
-        },
-        {
-          "label": "Визуальная аргументация",
-          "value": "перевожу данные и тезисы в слайды, которые легко читать"
-        },
-        {
-          "label": "Дизайн-система",
-          "value": "держу единый стиль, сетку, иерархию и аккуратную типографику"
-        },
-        {
-          "label": "Готовность к показу",
-          "value": "довожу материалы до состояния, в котором их можно защищать или отправлять"
-        }
-      ],
-      "pageCount": 6,
-      "sections": [
-        {
-          "slug": "podpiska",
-          "title": "Подписка UBIT",
-          "images": [
-            {
-              "src": "assets/works/presentation-decks/podpiska/slide-01.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Подписка UBIT"
-            },
-            {
-              "src": "assets/works/presentation-decks/podpiska/slide-02.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Подписка UBIT"
-            },
-            {
-              "src": "assets/works/presentation-decks/podpiska/slide-03.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Подписка UBIT"
-            },
-            {
-              "src": "assets/works/presentation-decks/podpiska/slide-04.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Подписка UBIT"
-            },
-            {
-              "src": "assets/works/presentation-decks/podpiska/slide-05.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Подписка UBIT"
-            },
-            {
-              "src": "assets/works/presentation-decks/podpiska/slide-06.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Подписка UBIT"
-            },
-            {
-              "src": "assets/works/presentation-decks/podpiska/slide-07.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Подписка UBIT"
-            },
-            {
-              "src": "assets/works/presentation-decks/podpiska/slide-08.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Подписка UBIT"
-            }
-          ]
-        },
-        {
-          "slug": "what-is-ubit",
-          "title": "UBIT - это",
-          "images": [
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-01.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-02.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-03.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-04.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-05.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-06.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-07.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-08.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-09.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-10.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            },
-            {
-              "src": "assets/works/presentation-decks/what-is-ubit/slide-11.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "UBIT - это"
-            }
-          ]
-        },
-        {
-          "slug": "transliatsia",
-          "title": "Эфир",
-          "images": [
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-01.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-02.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-03.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-04.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-05.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-06.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-07.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-08.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-09.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-10.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-11.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-12.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-13.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            },
-            {
-              "src": "assets/works/presentation-decks/transliatsia/slide-14.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Эфир"
-            }
-          ]
-        },
-        {
-          "slug": "token",
-          "title": "Токен",
-          "images": [
-            {
-              "src": "assets/works/presentation-decks/token/slide-01.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Токен"
-            },
-            {
-              "src": "assets/works/presentation-decks/token/slide-02.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Токен"
-            },
-            {
-              "src": "assets/works/presentation-decks/token/slide-03.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Токен"
-            },
-            {
-              "src": "assets/works/presentation-decks/token/slide-04.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "Токен"
-            }
-          ]
-        },
-        {
-          "slug": "white1",
-          "title": "White 1",
-          "images": [
-            {
-              "src": "assets/works/presentation-decks/white1/slide-01.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-02.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-03.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-04.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-05.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-06.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-07.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-08.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-09.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-10.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-11.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            },
-            {
-              "src": "assets/works/presentation-decks/white1/slide-12.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White 1"
-            }
-          ]
-        },
-        {
-          "slug": "white2",
-          "title": "White2",
-          "images": [
-            {
-              "src": "assets/works/presentation-decks/white2/slide-01.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White2"
-            },
-            {
-              "src": "assets/works/presentation-decks/white2/slide-02.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White2"
-            },
-            {
-              "src": "assets/works/presentation-decks/white2/slide-03.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White2"
-            },
-            {
-              "src": "assets/works/presentation-decks/white2/slide-04.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White2"
-            },
-            {
-              "src": "assets/works/presentation-decks/white2/slide-05.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White2"
-            },
-            {
-              "src": "assets/works/presentation-decks/white2/slide-06.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White2"
-            },
-            {
-              "src": "assets/works/presentation-decks/white2/slide-07.webp",
-              "width": 1920,
-              "height": 1080,
-              "alt": "White2"
-            }
-          ]
-        }
-      ],
-      "preview": "assets/covers/presentations-cover.webp"
     }
   }
 };
