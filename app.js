@@ -193,57 +193,6 @@ function mtsGalleryMarkup(caseData) {
   `;
 }
 
-function presentationGalleryMarkup(caseData) {
-  const tabs = (className = "") => caseData.sections
-    .map(
-      (section, index) => `
-        <button class="${className} ${index === 0 ? "is-active" : ""}" type="button" data-presentation-tab="${section.slug}">
-          ${section.title}
-        </button>
-      `,
-    )
-    .join("");
-
-  const groups = caseData.sections
-    .map((section, sectionIndex) => {
-      const slides = section.images
-        .map(
-          (image) => `
-            <figure class="slide-card">
-              <img src="${image.src}" alt="${image.alt}" loading="lazy" data-lightbox-src="${image.src}" data-lightbox-title="${image.alt}" />
-            </figure>
-          `,
-        )
-        .join("");
-
-      return `
-        <section class="presentation-group ${sectionIndex === 0 ? "is-active" : ""}" data-presentation-panel="${section.slug}">
-          <div class="presentation-head">
-            <div>
-              <p class="section-kicker">Презентация ${String(sectionIndex + 1).padStart(2, "0")}</p>
-              <h3>${section.title}</h3>
-            </div>
-            <div class="presentation-tabs is-inside" aria-label="Презентации">${tabs("is-inner")}</div>
-          </div>
-          <div class="slider-shell" data-slider>
-            <button class="slider-button prev" type="button" data-slider-prev aria-label="Предыдущий слайд"><span>←</span></button>
-            <div class="slider-track" data-slider-track>${slides}</div>
-            <button class="slider-button next" type="button" data-slider-next aria-label="Следующий слайд"><span>→</span></button>
-            <div class="slider-progress" aria-hidden="true"><span data-slider-progress></span></div>
-          </div>
-        </section>
-      `;
-    })
-    .join("");
-
-  return `
-    <div class="presentation-browser">
-      <div class="presentation-tabs is-outside" aria-label="Презентации">${tabs()}</div>
-      ${groups}
-    </div>
-  `;
-}
-
 function aiConceptGalleryMarkup(caseData) {
   const cards = caseData.sections
     .map((section) => {
@@ -305,13 +254,230 @@ function fashionGalleryMarkup(caseData) {
   `;
 }
 
+function gdsBrandingGalleryMarkup(caseData) {
+  const gds = caseData.gds;
+  if (!gds) return standardGalleryMarkup(caseData);
+
+  const posts = gds.posts
+    .map((post, index) => {
+      const postNumber = post.title.match(/\d+/)?.[0] || String(index + 1).padStart(2, "0");
+      return `
+        <button class="gds-post-card" type="button" data-gds-post-open="${index}" aria-label="Открыть карусель ${post.title}">
+          <img src="${post.preview}" alt="${post.title}" loading="lazy" />
+          <span>${postNumber}</span>
+        </button>
+      `;
+    })
+    .join("");
+
+  const personaSlides = gds.persona.images
+    .map(
+      (image) => `
+        <figure class="slide-card gds-persona-slide">
+          <img src="${image.src}" alt="${image.alt}" loading="lazy" data-lightbox-src="${image.src}" data-lightbox-title="${image.alt}" />
+        </figure>
+      `,
+    )
+    .join("");
+
+  return `
+    <div class="gds-case-stack">
+      <section class="gds-feature">
+        <div class="gds-feature-copy">
+          <p class="section-kicker">Сайт</p>
+          <h3>${gds.landing.title}</h3>
+          <p>${gds.landing.text}</p>
+          <button class="button primary gds-reveal-button" type="button" data-gds-landing-toggle>Раскрыть макет</button>
+        </div>
+        <figure class="gds-landing-frame" data-gds-landing-frame>
+          <img src="${gds.landing.image.src}" alt="${gds.landing.image.alt}" loading="lazy" />
+        </figure>
+      </section>
+
+      <section class="gds-feature">
+        <div class="gds-feature-copy">
+          <p class="section-kicker">Логотип</p>
+          <h3>${gds.logo.title}</h3>
+          <p>${gds.logo.text}</p>
+        </div>
+        <figure class="gds-logo-stage">
+          <img src="${gds.logo.image.src}" alt="${gds.logo.image.alt}" loading="lazy" data-lightbox-src="${gds.logo.image.src}" data-lightbox-title="${gds.logo.image.alt}" />
+        </figure>
+      </section>
+
+      <section class="gds-social-shell" data-gds-social>
+        <div class="gds-social-head">
+          <div>
+            <p class="section-kicker">Карусели</p>
+            <h3>Сетка для запрещенной в РФ соцсети</h3>
+            <p>Восемь серий собраны как единая лента: у каждого поста свой крючок, но все вместе они удерживают один характер бренда.</p>
+          </div>
+          <div class="gds-social-profile-card">
+            <strong>GDS Agency</strong>
+            <span>8 posts · visual system · content identity</span>
+          </div>
+        </div>
+        <div class="gds-social-grid">${posts}</div>
+        <div class="gds-social-modal" data-gds-modal hidden>
+          <div class="gds-social-dialog">
+            <div class="gds-social-modal-head">
+              <div>
+                <strong data-gds-modal-title></strong>
+                <span data-gds-modal-count></span>
+              </div>
+              <button type="button" data-gds-close aria-label="Закрыть">×</button>
+            </div>
+            <div class="gds-social-track" data-gds-track></div>
+            <div class="gds-social-progress" data-gds-dots></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gds-feature">
+        <div class="gds-feature-copy">
+          <p class="section-kicker">Презентация</p>
+          <h3>${gds.persona.title}</h3>
+          <p>${gds.persona.text}</p>
+        </div>
+        <div class="slider-shell gds-persona-slider" data-slider>
+          <button class="slider-button prev" type="button" data-slider-prev aria-label="Предыдущий слайд"><span>←</span></button>
+          <div class="slider-track" data-slider-track>${personaSlides}</div>
+          <button class="slider-button next" type="button" data-slider-next aria-label="Следующий слайд"><span>→</span></button>
+        </div>
+      </section>
+    </div>
+  `;
+}
+
+
 function galleryMarkup(key, caseData) {
   if (key === "mts") return mtsGalleryMarkup(caseData);
-  if (key === "presentations") return presentationGalleryMarkup(caseData);
   if (key === "ai-concepts") return aiConceptGalleryMarkup(caseData);
   if (key === "fashion-fund") return fashionGalleryMarkup(caseData);
+  if (key === "gds-branding") return gdsBrandingGalleryMarkup(caseData);
   return standardGalleryMarkup(caseData);
 }
+
+function setupGdsSocialGallery() {
+  const gallery = $("[data-gds-social]");
+  const landingFrame = $("[data-gds-landing-frame]");
+  const landingToggle = $("[data-gds-landing-toggle]");
+
+  landingToggle?.addEventListener("click", () => {
+    const expanded = landingFrame?.classList.toggle("is-expanded");
+    landingToggle.textContent = expanded ? "Свернуть макет" : "Раскрыть макет";
+    if (expanded) landingFrame?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  landingFrame?.addEventListener("wheel", (event) => {
+    const atTop = landingFrame.scrollTop <= 0;
+    const atBottom = Math.ceil(landingFrame.scrollTop + landingFrame.clientHeight) >= landingFrame.scrollHeight;
+    if ((event.deltaY < 0 && atTop) || (event.deltaY > 0 && atBottom)) {
+      event.preventDefault();
+      window.scrollBy({ top: event.deltaY * 4, behavior: "auto" });
+    }
+  }, { passive: false });
+
+  if (!gallery) return;
+
+  const key = document.body.dataset.case;
+  const posts = data.cases[key]?.gds?.posts || [];
+  const modal = $("[data-gds-modal]", gallery);
+  const track = $("[data-gds-track]", gallery);
+  const title = $("[data-gds-modal-title]", gallery);
+  const count = $("[data-gds-modal-count]", gallery);
+  const dots = $("[data-gds-dots]", gallery);
+  const close = $("[data-gds-close]", gallery);
+  let currentSlides = [];
+  let dragStartX = 0;
+  let dragStartScroll = 0;
+  let isDragging = false;
+  let dragPointerId = null;
+
+  const activeIndex = () => {
+    if (!track || !currentSlides.length) return 0;
+    const width = Math.max(track.clientWidth, 1);
+    return Math.min(currentSlides.length - 1, Math.max(0, Math.round(track.scrollLeft / width)));
+  };
+
+  const updateProgress = () => {
+    const index = activeIndex();
+    if (count) count.textContent = `${index + 1} / ${currentSlides.length}`;
+    if (dots) {
+      dots.innerHTML = currentSlides
+        .map((_, dotIndex) => `<span class="${dotIndex === index ? "is-active" : ""}"></span>`)
+        .join("");
+    }
+  };
+
+  const open = (postIndex) => {
+    const post = posts[postIndex];
+    if (!post?.slides?.length || !modal || !track) return;
+    currentSlides = post.slides;
+    title.textContent = post.title;
+    track.innerHTML = currentSlides
+      .map(
+        (image) => `
+          <figure class="gds-social-slide">
+            <img src="${image.src}" alt="${image.alt}" draggable="false" />
+          </figure>
+        `,
+      )
+      .join("");
+    modal.hidden = false;
+    document.body.classList.add("is-lightbox-open");
+    track.scrollTo({ left: 0, behavior: "instant" });
+    requestAnimationFrame(updateProgress);
+  };
+
+  const hide = () => {
+    if (!modal || !track) return;
+    modal.hidden = true;
+    track.innerHTML = "";
+    currentSlides = [];
+    document.body.classList.remove("is-lightbox-open");
+  };
+
+  $$("[data-gds-post-open]", gallery).forEach((button) => {
+    button.addEventListener("click", () => open(Number(button.dataset.gdsPostOpen || 0)));
+  });
+
+  close?.addEventListener("click", hide);
+  modal?.addEventListener("click", (event) => {
+    if (event.target === modal) hide();
+  });
+
+  track?.addEventListener("scroll", updateProgress, { passive: true });
+  track?.addEventListener("pointerdown", (event) => {
+    if (event.button > 0 || currentSlides.length < 2) return;
+    isDragging = true;
+    dragPointerId = event.pointerId;
+    dragStartX = event.clientX;
+    dragStartScroll = track.scrollLeft;
+    track.classList.add("is-dragging");
+    track.setPointerCapture?.(event.pointerId);
+  });
+  track?.addEventListener("pointermove", (event) => {
+    if (!isDragging || dragPointerId !== event.pointerId) return;
+    event.preventDefault();
+    track.scrollLeft = dragStartScroll - (event.clientX - dragStartX);
+  });
+  const stopDrag = (event) => {
+    if (dragPointerId !== event.pointerId) return;
+    isDragging = false;
+    dragPointerId = null;
+    track.classList.remove("is-dragging");
+    track.releasePointerCapture?.(event.pointerId);
+  };
+  track?.addEventListener("pointerup", stopDrag);
+  track?.addEventListener("pointercancel", stopDrag);
+
+  window.addEventListener("keydown", (event) => {
+    if (!modal || modal.hidden) return;
+    if (event.key === "Escape") hide();
+  });
+}
+
 
 function setupMtsGallery() {
   const gallery = $("[data-mts-gallery]");
@@ -608,26 +774,26 @@ function renderCasePage() {
   const key = document.body.dataset.case;
   const caseData = data.cases[key];
   if (!root || !caseData) return;
-  const worksTitle =
-    key === "mts"
-      ? "Промостраницы в превью"
-      : key === "presentations"
-        ? "Презентации в отдельных каруселях"
-      : key === "fashion-fund"
-          ? "Материалы по направлениям"
-          : key === "ai-concepts"
-            ? "AI-серии, которые выглядят как бренд-кампания"
-          : "Финальные макеты и визуальные материалы";
-  const worksDescription =
-    key === "mts"
-      ? "Нажмите на превью, чтобы открыть полную страницу в отдельном просмотре и проскроллить ее как настоящий лендинг."
-      : key === "presentations"
-        ? "Выберите нужную презентацию в крошках: ниже откроется соответствующая карусель со слайдами в правильном порядке."
-        : key === "fashion-fund"
-          ? "Переключайтесь между BRICS и Московской Неделей Моды: ниже открывается соответствующая длинная лента материалов."
-          : key === "ai-concepts"
-            ? "Каждый концепт собран как цельная визуальная система: идея, AI-изображения, текстовые акценты и сетка для SMM."
-          : "Изображения выводятся целиком, без обрезки и без лишних подписей под каждым макетом.";
+  const worksCopy = {
+    mts: {
+      title: "????????????? ? ??????",
+      description: "??????? ?? ??????, ????? ??????? ?????? ???????? ? ????????? ????????? ? ???????????? ?? ??? ????????? ???????.",
+    },
+    "fashion-fund": {
+      title: "????????? ?? ????????????",
+      description: "?????????????? ????? BRICS ? ?????????? ??????? ????: ???? ??????????? ??????????????? ??????? ????? ??????????.",
+    },
+    "ai-concepts": {
+      title: "AI-?????, ??????? ???????? ??? ?????-????????",
+      description: "?????? ??????? ?????? ??? ??????? ?????????? ???????: ????, AI-???????????, ????????? ??????? ? ????? ??? SMM.",
+    },
+  };
+  const fallbackWorks = worksCopy[key] || {
+    title: "????????? ?????? ? ?????????? ?????????",
+    description: "??????????? ????????? ???????, ??? ??????? ? ??? ?????? ???????? ??? ?????? ???????.",
+  };
+  const worksTitle = caseData.worksTitle || fallbackWorks.title;
+  const worksDescription = caseData.worksDescription || fallbackWorks.description;
 
   document.title = `${caseData.shortTitle} — кейс Александра Калашникова`;
   root.innerHTML = `
@@ -644,7 +810,7 @@ function renderCasePage() {
           </div>
         </div>
         <figure class="case-preview glass-panel">
-          <img src="${caseData.preview}" alt="${caseData.shortTitle}" />
+          <img src="${caseData.heroPreview || caseData.preview}" alt="${caseData.shortTitle}" />
           <figcaption>${caseData.kicker}</figcaption>
         </figure>
       </div>
@@ -703,6 +869,7 @@ function renderCasePage() {
   setupSliders();
   setupPresentationTabs();
   setupMtsGallery();
+  setupGdsSocialGallery();
   setupImageLightbox();
 }
 
