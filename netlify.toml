@@ -17,7 +17,17 @@
     Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
+  for = "/assets/work-data-20260814-workcopyfix.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
   for = "/app-20260814-encodingfix.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/app-20260814-workcopyfix.js"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 

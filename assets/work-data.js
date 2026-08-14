@@ -843,139 +843,139 @@ window.PORTFOLIO_DATA = {
               "src": "assets/works/gds/persona/persona-01.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 01"
+              "alt": "GDS persona slide 01"
             },
             {
               "src": "assets/works/gds/persona/persona-02.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 02"
+              "alt": "GDS persona slide 02"
             },
             {
               "src": "assets/works/gds/persona/persona-03.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 03"
+              "alt": "GDS persona slide 03"
             },
             {
               "src": "assets/works/gds/persona/persona-04.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 04"
+              "alt": "GDS persona slide 04"
             },
             {
               "src": "assets/works/gds/persona/persona-05.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 05"
+              "alt": "GDS persona slide 05"
             },
             {
               "src": "assets/works/gds/persona/persona-06.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 06"
+              "alt": "GDS persona slide 06"
             },
             {
               "src": "assets/works/gds/persona/persona-07.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 07"
+              "alt": "GDS persona slide 07"
             },
             {
               "src": "assets/works/gds/persona/persona-08.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 08"
+              "alt": "GDS persona slide 08"
             },
             {
               "src": "assets/works/gds/persona/persona-09.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 09"
+              "alt": "GDS persona slide 09"
             },
             {
               "src": "assets/works/gds/persona/persona-10.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 10"
+              "alt": "GDS persona slide 10"
             },
             {
               "src": "assets/works/gds/persona/persona-11.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 11"
+              "alt": "GDS persona slide 11"
             },
             {
               "src": "assets/works/gds/persona/persona-12.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 12"
+              "alt": "GDS persona slide 12"
             },
             {
               "src": "assets/works/gds/persona/persona-13.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 13"
+              "alt": "GDS persona slide 13"
             },
             {
               "src": "assets/works/gds/persona/persona-14.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 14"
+              "alt": "GDS persona slide 14"
             },
             {
               "src": "assets/works/gds/persona/persona-15.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 15"
+              "alt": "GDS persona slide 15"
             },
             {
               "src": "assets/works/gds/persona/persona-16.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 16"
+              "alt": "GDS persona slide 16"
             },
             {
               "src": "assets/works/gds/persona/persona-17.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 17"
+              "alt": "GDS persona slide 17"
             },
             {
               "src": "assets/works/gds/persona/persona-18.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 18"
+              "alt": "GDS persona slide 18"
             },
             {
               "src": "assets/works/gds/persona/persona-19.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 19"
+              "alt": "GDS persona slide 19"
             },
             {
               "src": "assets/works/gds/persona/persona-20.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 20"
+              "alt": "GDS persona slide 20"
             },
             {
               "src": "assets/works/gds/persona/persona-21.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 21"
+              "alt": "GDS persona slide 21"
             },
             {
               "src": "assets/works/gds/persona/persona-22.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 22"
+              "alt": "GDS persona slide 22"
             },
             {
               "src": "assets/works/gds/persona/persona-23.webp",
               "width": 1920,
               "height": 1080,
-              "alt": "GDS: ???????? ? ?????, ????? 23"
+              "alt": "GDS persona slide 23"
             }
           ]
         }

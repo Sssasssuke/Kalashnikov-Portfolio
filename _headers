@@ -1,3 +1,10 @@
+
+/assets/work-data-20260814-workcopyfix2.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/app-20260814-workcopyfix2.js
+  Cache-Control: public, max-age=0, must-revalidate
+
 /assets/work-data.js
   Cache-Control: public, max-age=0, must-revalidate
 
@@ -7,7 +14,13 @@
 /assets/work-data-20260814-encodingfix.js
   Cache-Control: public, max-age=0, must-revalidate
 
+/assets/work-data-20260814-workcopyfix.js
+  Cache-Control: public, max-age=0, must-revalidate
+
 /app-20260814-encodingfix.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/app-20260814-workcopyfix.js
   Cache-Control: public, max-age=0, must-revalidate
 
 /styles-20260814-encodingfix.css
