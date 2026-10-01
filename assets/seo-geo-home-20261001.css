@@ -1,0 +1,9 @@
+.home-case-card.is-seo-geo .home-case-media {
+  aspect-ratio: 1;
+  align-self: start;
+  min-height: 0;
+}
+
+.home-case-card.is-seo-geo .home-case-media img {
+  object-fit: contain;
+}

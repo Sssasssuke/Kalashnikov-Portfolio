@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <base href="/seo-geo/">
+  <link rel="canonical" href="https://kalashnikov.tech/seo-geo">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="https://kalashnikov.tech/seo-geo/assets/seo-geo-cover.webp">
+  <meta name="description" content="UX/UI-кейс Александра Калашникова: рабочий кабинет для технического аудита сайта и анализа видимости в AI. Анонимизированная версия под NDA.">
+  <title>SEO/GEO-платформа · Александр Калашников</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preload" href="assets/inter-tight.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="case.css">
+  <script src="assets/lucide.min.js" defer></script>
+  <script src="case.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#context">К содержанию</a>
+  <header class="site-header">
+    <a class="brand" href="/#cases" aria-label="Кейсы на главной странице">
+      <img src="assets/avatar.webp" width="42" height="42" alt="Александр Калашников">
+      <span>SEO/GEO-платформа</span>
+    </a>
+    <nav aria-label="Разделы кейса">
+      <a href="#context">Задача</a><a href="#scenario">Логика</a><a href="#screens">Экраны</a><a href="#ui-kit">UI Kit</a>
+    </nav>
+    <a class="header-contact" href="https://t.me/kal4shnikoff" target="_blank" rel="noopener noreferrer">Telegram<i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+  </header>
+
+  <main>
+    <section class="hero" id="top" aria-labelledby="case-title">
+      <div class="container">
+        <div class="hero-topline"><p class="eyebrow">UX/UI · B2B SaaS · Web</p><span class="nda"><i data-lucide="lock-keyhole" aria-hidden="true"></i>Проект под NDA</span></div>
+        <h1 id="case-title">SEO/GEO-платформа</h1>
+        <p class="hero-lead">Сервис для маркетологов и SEO-специалистов</p>
+        <p class="hero-description">Спроектировал кабинет, в котором можно проверить сайт, узнать, упоминают ли компанию нейросети, и разобраться, что стоит исправить в первую очередь.</p>
+        <dl class="project-meta">
+          <div><dt>Моя роль</dt><dd>UX/UI-дизайнер</dd></div>
+          <div><dt>Что делал</dt><dd>Сценарии, интерфейс, UI Kit</dd></div>
+          <div><dt>Статус продукта</dt><dd><span class="live-dot"></span>Запущен</dd></div>
+        </dl>
+        <figure class="hero-screen">
+          <button class="image-button" type="button" data-image="overview" aria-label="Увеличить обзор проекта">
+            <img src="assets/overview.png" width="1591" height="1256" alt="Обзор проекта: показатели SEO, видимость в AI, репутация и приоритетные задачи" fetchpriority="high">
+            <span class="zoom-hint" aria-hidden="true"><i data-lucide="maximize-2"></i></span>
+          </button>
+          <figcaption><span>01 / Обзор проекта</span><span>Анонимизированные макеты · демонстрационные данные</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section container" id="context" aria-labelledby="context-title">
+      <div class="section-heading">
+        <p class="eyebrow">О проекте</p>
+        <h2 id="context-title">С чего я начал</h2>
+        <p class="section-lead">На старте у меня был только неработающий прототип: одна страница со сплошным текстом о том, что на сайте хорошо, а что плохо. Ни рекомендаций, ни объяснений, зачем что-то менять, ни дальнейших действий в нём не было. По сути, это был отчёт, а не сервис для работы. Других материалов у меня не было.</p>
+        <p class="section-lead">Я превратил этот отчёт в полноценный сервис: самостоятельно разобрался в логике продукта, продумал разделы, рекомендации и пользовательский путь. Хотел, чтобы человек мог без дополнительных объяснений понять, с чего начать, что исправить и как проверить результат. После этого собрал экраны и UI Kit.</p>
+      </div>
+      <div class="context-grid">
+        <div><h3>Кому нужен сервис</h3><p>Маркетологам и SEO-специалистам, которые следят за продвижением компании. Им важно видеть технические проблемы сайта, сравнивать себя с конкурентами и проверять упоминания в ответах нейросетей.</p></div>
+        <div><h3>В чём была задача</h3><p>Не просто сделать отчёт удобнее для чтения, а спроектировать работу после его получения. Объяснить, к чему относится каждая проблема, зачем её исправлять и какие действия для этого нужны.</p></div>
+        <div><h3>За что я отвечал</h3><p>Пользовательский путь и структуру сервиса я выстраивал с нуля. В исходнике их не было. Моя работа включала и логику взаимодействия, и оформление интерфейса, и общие компоненты для экранов.</p></div>
+      </div>
+      <aside class="disclosure"><i data-lucide="shield-check" aria-hidden="true"></i><p>По NDA я не могу назвать компанию и сервис. Для портфолио убрал названия, заменил данные и доработал часть макетов. Цифры на скриншотах приведены для примера.</p></aside>
+    </section>
+
+    <section class="scenario-band" id="scenario" aria-labelledby="scenario-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Как устроена работа с задачей</p><h2 id="scenario-title">Что происходит<br>после обнаружения ошибки</h2><p class="section-lead">Разберу на примере страницы, закрытой от индексации. Недостаточно сообщить об ошибке: нужно объяснить, где она находится, как её исправить и как проверить результат.</p></div>
+        <ol class="journey">
+          <li><span class="step-number">01</span><h3>Выбрать задачу</h3><p>На главном экране видны самые важные проблемы. Отсюда можно сразу открыть задачу.</p></li>
+          <li><span class="step-number">02</span><h3>Прочитать инструкцию</h3><p>Внутри указаны адрес страницы, причина ошибки и порядок исправления.</p></li>
+          <li><span class="step-number">03</span><h3>Отметить исправление</h3><p>После правок на сайте пользователь отмечает задачу. Она переходит в ожидание проверки.</p></li>
+          <li><span class="step-number">04</span><h3>Запустить проверку</h3><p>Сервис проверяет страницу ещё раз. Если ошибка осталась, задача возвращается в работу.</p></li>
+        </ol>
+        <div class="viewer" data-viewer="flow">
+          <div class="viewer-top"><span class="viewer-label">Пример: запрет индексации</span><div class="tabs" role="tablist" aria-label="Этапы задачи">
+            <button id="flow-tab-0" role="tab" aria-selected="true" aria-controls="flow-panel" tabindex="0" data-index="0">01 Инструкция</button>
+            <button id="flow-tab-1" role="tab" aria-selected="false" aria-controls="flow-panel" tabindex="-1" data-index="1">02 Ожидание</button>
+            <button id="flow-tab-2" role="tab" aria-selected="false" aria-controls="flow-panel" tabindex="-1" data-index="2">03 Подтверждение</button>
+          </div></div>
+          <div id="flow-panel" role="tabpanel" aria-labelledby="flow-tab-0">
+            <button class="image-button stage flow-stage" type="button" data-image="instruction" aria-label="Увеличить инструкцию к задаче">
+              <img src="assets/instruction.png" width="1591" height="900" loading="lazy" alt="Инструкция: проверить запрет индексации страницы services">
+              <span class="zoom-hint" aria-hidden="true"><i data-lucide="maximize-2"></i></span>
+            </button>
+            <div class="viewer-description" aria-live="polite"><h3>Всё нужное для исправления в одной задаче</h3><p>Я собрал здесь адрес страницы, описание ошибки и инструкцию. Так можно заняться исправлением, не возвращаясь к общему отчёту.</p></div>
+          </div>
+        </div>
+        <div class="design-principle"><span>Почему два статуса</span><p>Я разделил ручную отметку и проверку сервиса: пользователь мог внести правки, но ошибка на сайте могла остаться.</p></div>
+      </div>
+    </section>
+
+    <section class="section container" id="screens" aria-labelledby="screens-title">
+      <div class="section-heading"><p class="eyebrow">Другие экраны</p><h2 id="screens-title">Аудит сайта и упоминания в AI</h2><p class="section-lead">В этих разделах решаются разные задачи, поэтому и данные я организовал по-разному. В аудите важна срочность ошибки, в аналитике AI нужно понимать, откуда взялся показатель.</p></div>
+      <article class="screen-story">
+        <div class="story-heading"><div><span class="story-index">01 / Диагностика</span><h3>Как понять, за какую ошибку браться первой</h3></div><p>Разделил замечания по важности и добавил фильтры. В каждой строке видно, что именно не так и на какой странице. Из списка можно перейти к исправлению.</p></div>
+        <figure><button class="image-button" type="button" data-image="audit" aria-label="Увеличить технический аудит"><img src="assets/audit.png" width="1591" height="1206" loading="lazy" alt="Технический аудит: сводка замечаний, фильтры приоритета и список ошибок"><span class="zoom-hint" aria-hidden="true"><i data-lucide="maximize-2"></i></span></button><figcaption><span>Технический аудит</span><span>Приоритет → страница → действие</span></figcaption></figure>
+      </article>
+      <article class="screen-story">
+        <div class="story-heading"><div><span class="story-index">02 / Аналитика</span><h3>Что означает процент упоминаний</h3></div><p>Один процент мало что говорит. Поэтому рядом я показал, сколько ответов проверено, за какой период и в каких сервисах. Ниже можно сравнить результаты по каждому источнику.</p></div>
+        <figure><button class="image-button" type="button" data-image="visibility" aria-label="Увеличить видимость в AI"><img src="assets/visibility.png" width="1591" height="1208" loading="lazy" alt="AI-видимость: 18 упоминаний из 60 ответов и сравнение трёх AI-источников"><span class="zoom-hint" aria-hidden="true"><i data-lucide="maximize-2"></i></span></button><figcaption><span>Видимость в AI</span><span>Выборка → сравнение → вывод</span></figcaption></figure>
+      </article>
+    </section>
+
+    <section class="kit-section" id="ui-kit" aria-labelledby="kit-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">UI Kit</p><h2 id="kit-title">Компоненты, которые<br>использовал в макетах</h2><p class="section-lead">В кабинете часто повторяются кнопки, поля и таблицы. Собрал их в библиотеку Figma, настроил стили и состояния. Это помогает поддерживать одинаковое оформление при добавлении новых экранов.</p></div>
+        <dl class="kit-facts"><div><dt>Семейство компонентов</dt><dd>21</dd></div><div><dt>Семантических переменных</dt><dd>76</dd></div><div><dt>Текстовых стилей</dt><dd>7</dd></div><div><dt>Состояний кнопки</dt><dd>6</dd></div></dl>
+        <div class="kit-rationale"><p><strong>Шрифт и размеры</strong>Во всём кабинете использую Inter Tight. Для заголовков страниц выбрал 32 px с интерлиньяжем 40 px, для основного текста 14/20.</p><p><strong>Состояния элементов</strong>Проработал, как выглядят наведение, нажатие, фокус, загрузка и недоступное действие. У статусов есть подписи, чтобы их можно было понять не только по цвету.</p><p><strong>Компоненты в Figma</strong>Повторяющиеся элементы связаны с библиотекой. Если нужно изменить кнопку или поле, правка применяется к их экземплярам в макетах.</p></div>
+        <div class="viewer kit-viewer" data-viewer="kit">
+          <div class="viewer-top"><span class="viewer-label">UI Kit / Inter Tight</span><div class="tabs" role="tablist" aria-label="Разделы UI Kit">
+            <button id="kit-tab-0" role="tab" aria-selected="true" aria-controls="kit-panel" tabindex="0" data-index="0">Компоненты</button>
+            <button id="kit-tab-1" role="tab" aria-selected="false" aria-controls="kit-panel" tabindex="-1" data-index="1">Основы</button>
+            <button id="kit-tab-2" role="tab" aria-selected="false" aria-controls="kit-panel" tabindex="-1" data-index="2">Формы</button>
+          </div></div>
+          <div id="kit-panel" role="tabpanel" aria-labelledby="kit-tab-0">
+            <button class="image-button stage kit-stage" type="button" data-image="controls" aria-label="Увеличить компоненты UI Kit"><img src="assets/controls.png" width="1440" height="1184" loading="lazy" alt="UI Kit: кнопки и их состояния, размеры для мыши и касания"><span class="zoom-hint" aria-hidden="true"><i data-lucide="maximize-2"></i></span></button>
+            <div class="viewer-description" aria-live="polite"><h3>Кнопки и их состояния</h3><p>Выделил основные и вторичные действия, отдельно оформил удаление. Подготовил варианты высотой 36 и 44 px, в том числе с загрузкой и фокусом.</p></div>
+          </div>
+        </div>
+        <a class="text-link" href="https://www.figma.com/design/WQIika4Kkhf9ZAQZIMpgpd?node-id=7-11" target="_blank" rel="noopener noreferrer">UI Kit в Figma<i data-lucide="arrow-up-right" aria-hidden="true"></i></a>
+      </div>
+    </section>
+
+    <section class="section container result-section" id="result" aria-labelledby="result-title">
+      <p class="eyebrow">Результат</p>
+      <div class="result-grid"><h2 id="result-title">Что было после запуска</h2><div><p class="result-lead">Сервисом стали активно пользоваться маркетологи. Интерес оказался настолько большим, что компания сделала его своим основным направлением.</p><p>Я отвечал за интерфейс: как устроены разделы, как пользователь работает с задачами и как всё это выглядит. Популярность сервиса не могу приписать только дизайну, над продуктом работала команда.</p><p class="muted">Точные показатели не раскрываю. На этой странице показана версия макетов для портфолио, она отличается от текущего продукта.</p></div></div>
+      <div class="next-steps"><h3>Что я бы проверил с пользователями</h3><p>Попросил бы выбрать первую задачу и пройти её до конца. Посмотрел бы, понятно ли ожидание проверки и что человек делает, если сервис не подтверждает исправление. По таким наблюдениям можно понять, где сценарий ещё требует доработки.</p></div>
+      <div class="case-actions"><a class="button primary" href="https://www.figma.com/design/WQIika4Kkhf9ZAQZIMpgpd?node-id=1-2281" target="_blank" rel="noopener noreferrer">Макеты в Figma<i data-lucide="arrow-up-right" aria-hidden="true"></i></a><a class="button secondary" href="/#cases">Другие кейсы<i data-lucide="arrow-left" aria-hidden="true"></i></a></div>
+    </section>
+    <section class="contact-band" aria-labelledby="contact-title"><div class="container contact-inner"><div><p class="eyebrow">Связаться со мной</p><h2 id="contact-title">Обсудим ваш проект?</h2></div><a class="button contact-button" href="https://t.me/kal4shnikoff" target="_blank" rel="noopener noreferrer">Написать в Telegram<i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div></section>
+  </main>
+  <footer class="container"><span>Калашников Александр</span><span>Дизайн и вайбкодинг</span><a href="https://t.me/kal4shnikoff" target="_blank" rel="noopener noreferrer">@kal4shnikoff</a></footer>
+
+  <dialog class="lightbox" aria-labelledby="lightbox-title">
+    <div class="lightbox-bar"><h2 id="lightbox-title">Обзор проекта</h2><div><span class="image-count" aria-live="polite"></span><button class="icon-button" type="button" data-zoom title="Увеличить масштаб" aria-label="Увеличить масштаб" aria-pressed="false"><i data-lucide="zoom-in" aria-hidden="true"></i></button><button class="icon-button" type="button" data-close title="Закрыть" aria-label="Закрыть"><i data-lucide="x" aria-hidden="true"></i></button></div></div>
+    <div class="lightbox-viewport"><img src="assets/overview.png" alt="Обзор проекта" draggable="false"></div>
+    <button class="icon-button lightbox-prev" type="button" data-prev title="Предыдущее изображение" aria-label="Предыдущее изображение"><i data-lucide="chevron-left" aria-hidden="true"></i></button>
+    <button class="icon-button lightbox-next" type="button" data-next title="Следующее изображение" aria-label="Следующее изображение"><i data-lucide="chevron-right" aria-hidden="true"></i></button>
+  </dialog>
+</body>
+</html>
