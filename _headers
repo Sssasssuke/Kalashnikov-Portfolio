@@ -31,3 +31,21 @@
 
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/mts
+  Cache-Control: public, max-age=0, must-revalidate
+
+/fashion-fund
+  Cache-Control: public, max-age=0, must-revalidate
+
+/seo-geo
+  Cache-Control: public, max-age=0, must-revalidate
+
+/gds-branding
+  Cache-Control: public, max-age=0, must-revalidate
+
+/ai-concepts
+  Cache-Control: public, max-age=0, must-revalidate
