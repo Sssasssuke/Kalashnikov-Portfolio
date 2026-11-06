@@ -1,0 +1,14 @@
+document.querySelector('.identity').innerHTML=`<img src="/assets/portfolio-os-20261106/alexander-shoulders.png" alt="Александр Калашников"><div><h1>Александр Калашников</h1><small>Коммуникационный и UX/UI-дизайнер</small><p>Помогаю брендам запоминаться, а людям — разбираться. От визуальной идеи до интерфейса и запуска страницы.</p><div class="profile-actions"><button data-open="work">Мои работы</button><button data-open="about">Обо мне</button></div></div>`;
+document.querySelector('.note').innerHTML='<span>Красиво — да. Но зачем?<br>Немного о моём подходе</span><i data-lucide="lightbulb"></i>';
+document.querySelector('.note').insertAdjacentHTML('beforebegin','<div class="mini-widget"><small>В портфолио</small><strong>5</strong><span>разных проектов</span></div><div class="mini-widget"><small>Моё время</small><strong id="local-time"></strong><span>Москва</span></div>');
+document.querySelector('.status>span:first-child').textContent='PortfolioOS';
+document.querySelector('.status>span:first-child').insertAdjacentHTML('afterend','<nav class="menu"><button data-open="work">Работы</button><button data-open="about">Обо мне</button><button data-open="contact">Контакты</button></nav>');
+document.querySelector('.dock').insertAdjacentHTML('beforeend','<button class="extra" data-open="about" aria-label="Обо мне" title="Обо мне"><i data-lucide="user-round"></i></button><button class="extra" data-open="skills" aria-label="Навыки" title="Навыки"><i data-lucide="layers"></i></button>');
+document.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>openApp(b.dataset.open,b));
+const explore=document.createElement('button');explore.className='explore';explore.textContent='На рабочий стол →';explore.style.cssText='position:static;transform:none;flex-shrink:0;margin:4px auto 10px;padding:10px 18px';modal.append(explore);
+explore.onclick=()=>{modal.close();modal.classList.add('desktop-window');modal.show();explore.hidden=true;};
+modal.addEventListener('close',()=>{explore.hidden=true;});
+document.querySelector('#back').onclick=()=>{modal.close();explore.hidden=true;};
+const note=document.createElement('p');note.className='chat-note';note.textContent='Локальный помощник по портфолио · без подключения AI';modal.append(note);
+function localTime(){document.querySelector('#local-time').textContent=new Date().toLocaleTimeString('ru-RU',{timeZone:'Europe/Moscow',hour:'2-digit',minute:'2-digit'});}localTime();setInterval(localTime,60000);
+content.replaceChildren();bubble('Привет! Я Александр, коммуникационный и UX/UI-дизайнер.');bubble('Делаю промостраницы, айдентику и интерфейсы. Мне нравится разобраться в задаче и довести дизайн до запуска.');bubble('С чем могу помочь:\n\nUX/UI и пользовательские сценарии\nАйдентика и key visual\nПромостраницы и HTML / CSS\nAI-визуалы');bubble('Можно посмотреть работы?',true);bubble('Да! Вот пять проектов:');work();content.scrollTop=0;icons();
